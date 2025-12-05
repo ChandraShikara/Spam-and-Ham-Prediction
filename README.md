@@ -2,13 +2,13 @@
 
 This project provides a robust solution for classifying short text messages (SMS) as either Spam (unsolicited, unwanted) or Ham (legitimate, desired). The application uses a hybrid approach, combining a rule-based system for immediate detection with a powerful machine learning model for nuanced classification.
 
-🌟 Project Overview
+## 🌟 Project Overview
 
 The primary goal is to build a highly accurate and efficient message filter. Since false positives (flagging a "Ham" message as "Spam") are extremely damaging to user experience, the system is optimized for high Precision while maintaining strong overall Accuracy.
 
 Key Technology: Hybrid Classifier leveraging Term Frequency-Inverse Document Frequency (TF-IDF) and Support Vector Classification (SVC).
 
-🛠️ Technical Details
+## 🛠️ Technical Details
 
 Data Preprocessing & Feature Engineering
 
@@ -35,7 +35,7 @@ Accuracy : > 98.35%
 
 Support Vector Classifier (SVC)
 
-📁 Repository Contents
+## 📁 Repository Contents
 
 File & Description
 
@@ -51,13 +51,13 @@ app.py : The Streamlit Python script that deploys the model as an interactive we
 
 requirements.txt : List of all Python dependencies needed to run the project.
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 Prerequisites
 
 You will need Python and the libraries listed in requirements.txt. Key dependencies include streamlit, scikit-learn, pandas, and pickle.
 
-# Install all required libraries
+### Install all required libraries
 pip install -r requirements.txt
 
 
@@ -65,7 +65,7 @@ Running the Web Application
 
 The project is designed to be run as an interactive web app using Streamlit:
 
-# Navigate to the directory containing app.py
+### Navigate to the directory containing app.py
 streamlit run app.py
 
 
