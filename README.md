@@ -1,4 +1,4 @@
-Spam and Ham Message Detection
+# Spam and Ham Message Detection
 
 This project provides a robust solution for classifying short text messages (SMS) as either Spam (unsolicited, unwanted) or Ham (legitimate, desired). The application uses a hybrid approach, combining a rule-based system for immediate detection with a powerful machine learning model for nuanced classification.
 
